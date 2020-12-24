@@ -19,7 +19,7 @@
     }
     .modal{
         background-color: white;
-        max-width: 90vw;
+        max-width: 95vw;
         padding: 1rem;
         margin: 2% auto;
         max-height: 95%;

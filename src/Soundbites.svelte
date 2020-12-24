@@ -20,7 +20,6 @@
     <table width=100%>
         <tr>
             <th>Feedtitle</th>
-            <th>FeedID</th>
             <th>EpisodeTitle</th>
             <th>Player</th>
         </tr>

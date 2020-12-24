@@ -68,3 +68,8 @@ button:focus {
 .modal-wrapper{
 	z-index:300;
 }
+
+audio {
+    width:250px;
+    height: 50px;
+}

@@ -104,7 +104,6 @@
                 <!-- <button on:click={() => modal.show()}>{pod.feedTitle}</button> -->
                 <button on:click={() => modalpodcast()}>{pod.feedTitle}</button>
         </td>
-        <td>{pod.feedId}</td>
         <td><a href={pod.enclosureUrl.split('?', 1)}>{pod.episodeTitle}</a></td>
         <!-- svelte-ignore a11y-media-has-caption -->
         <td>

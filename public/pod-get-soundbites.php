@@ -28,7 +28,7 @@ $response = curl_exec ($ch);
 curl_close ($ch);
 //echo print_r(json_decode($response), TRUE);
 $pods = json_decode($response,true);
-$pods = array_slice($pods['items'],0,8);
-//print_r($pods);
+$pods = array_slice($pods['items'],0,9);
+
 //print_r($pods[0]['episodeTitle']);
 echo json_encode($pods);
