@@ -59,6 +59,16 @@
                 margin-left: 10px;
                 margin-right: 10px;
         }
+        .episodetitle{
+                font-weight: 900;
+                font-size: 1.5rem;
+                text-align: left;
+                padding-left: 10px;
+                padding-top: 8px;
+        }
+        
+    tr:nth-child(even) {background:lightgray}
+    tr:nth-child(odd) {background: #f3bbbb}
 </style>
 
 <tr>
@@ -102,11 +112,10 @@
                         </div>
                 </Modal>
                 <!-- <button on:click={() => modal.show()}>{pod.feedTitle}</button> -->
-                <button on:click={() => modalpodcast()}>{pod.feedTitle}</button>
+                <button title="Click to see Podcast Info" on:click={() => modalpodcast()}>{pod.feedTitle} </button>
         </td>
-        <td><a href={pod.enclosureUrl.split('?', 1)}>{pod.episodeTitle}</a></td>
-        <!-- svelte-ignore a11y-media-has-caption -->
-        <td>
+        <td class="episodetitle">{pod.episodeTitle}<br />
+                <!-- svelte-ignore a11y-media-has-caption -->
                 <audio controls>
                         <source
                                 src="{pod.enclosureUrl.split('?', 1) + '#t='}{pod.startTime},{pod.startTime + pod.duration}"

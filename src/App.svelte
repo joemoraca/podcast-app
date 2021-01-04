@@ -5,7 +5,8 @@
 </script>
 
 <main>
-<h1>Welcome to Soundbites</h1>
+<h1>Welcome to Podcast Soundbites</h1>
+<h2>Built with <a href="http://podcastindex.org/" target="_blank">Podcast Index</a> </h2>
 	<Soundbites />
 	<!-- <button on:click={() => modal.show()}>Show modal</button> -->
 	<Modal bind:this={modal}>
@@ -28,6 +29,7 @@
 		text-transform: uppercase;
 		font-size: 4em;
 		font-weight: 100;
+		margin-bottom: 5px;
 	}
 
 	@media (min-width: 640px) {

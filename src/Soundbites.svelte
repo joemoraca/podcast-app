@@ -19,9 +19,8 @@
 <div id="pods">
     <table width=100%>
         <tr>
-            <th>Feedtitle</th>
-            <th>EpisodeTitle</th>
-            <th>Player</th>
+            <th id="pod-th-center">Podcast Title</th>
+            <th>Episode Title / Soundbite</th>
         </tr>
     {#each pods as pod}
     <Podlist pod={pod} />
@@ -32,4 +31,13 @@
 
 
 <style>
+    th{
+        font-size: 2rem;
+        font-weight: 900;
+        text-align: left;
+    }
+    #pod-th-center{
+        text-align:center;
+    }
+
 </style>
