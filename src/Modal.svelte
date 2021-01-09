@@ -27,7 +27,9 @@
     .close{
         float:right;
         cursor: pointer;
-        font-size:1.5rem;
+        font-size:2.5rem;
+        font-weight: 900;
+        padding-left:5px;
     }
     .close:hover {
         font-weight: 900;

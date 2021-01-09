@@ -30,6 +30,8 @@
 		font-size: 4em;
 		font-weight: 100;
 		margin-bottom: 5px;
+		margin-top:-10px;
+		padding-top: 0;
 	}
 
 	@media (min-width: 640px) {

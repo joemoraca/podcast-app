@@ -35,7 +35,7 @@
                 font-size: 1.2rem;
                 text-align: left;
                 display: grid;
-                grid-template-columns: auto auto;
+                grid-template-columns: auto 310px;
                 grid-template-rows: auto auto;
                 grid-column-gap: 10px;
                 grid-template-areas: "modalleft modalright" "modalepisodes modalepisodes";
@@ -45,28 +45,35 @@
         }
         .modalright {
                 grid-area: modalright;
+                text-align: center;
         }
-        .modalright img{
+        /* .modalright img{
                 padding-left: 50px;
                 padding-right: 20px;
-        }
+        } */
         .modalepisodes {
                 grid-area: modalepisodes;
         }
         .podtitle{
-                font-weight: 900;
-                font-size: 1.5rem;      
+                font-weight: 700;
+                font-size: 1.25rem;      
                 margin-left: 10px;
                 margin-right: 10px;
         }
+        .podtitlelink{
+                font-weight: 700;
+                font-size: 1.25rem;  
+        }
         .episodetitle{
-                font-weight: 900;
+                font-weight: 700;
                 font-size: 1.5rem;
                 text-align: left;
                 padding-left: 10px;
                 padding-top: 8px;
         }
-        
+        td{
+                padding:5px;
+        }
     tr:nth-child(even) {background:lightgray}
     tr:nth-child(odd) {background: #f3bbbb}
 </style>
@@ -77,12 +84,13 @@
                         <div class="modaldiv">
                                 <div class="modalleft">
                                         {#if podcastinfo.link}
-                                        <span class="podtitle">Podcast Name:</span><a href="{podcastinfo.link}" target="_blank">{pod.feedTitle}</a><br />
+                                        <span class="podtitle">Podcast Name:</span><a class="podtitlelink" href="{podcastinfo.link}" target="_blank">{pod.feedTitle}</a><br />
                                         {:else}
-                                        <span class="podtitle">Podcast Name:</span>{pod.feedTitle}<br />
+                                        <span class="podtitle">Podcast Name:</span><span class="podtitlelink">{pod.feedTitle}</span><br />
                                         {/if}
-                                        <span class="podtitle">Author:</span>{podcastinfo.author}<br />
-                                        <span class="podtitle">Desc:</span>{podcastinfo.description}
+                                        <span class="podtitle">Author: </span>{podcastinfo.author}<br />
+                                        <span class="podtitle">Desc:</span>{podcastinfo.description}<br />
+                                        <span class="podtitle">RSS Feed: </span><a class="podtitlelink" href="{podcastinfo.url}" target="_blank">Subscribe</a>
                                 </div>
                                 <div class="modalright">
                                         <img    src={podcastinfo.artwork}
