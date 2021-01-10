@@ -1,6 +1,7 @@
 <script>
 	import Soundbites from './Soundbites.svelte'
 	import Modal from './Modal.svelte'
+	import Search from './Search.svelte'
 	let modal;
 </script>
 
@@ -14,6 +15,7 @@
 		<p>Modal content.</p>
 		<button on:click={() => modal.hide()}>Close</button>
 	</Modal>
+	<Search />
 </main>
 
 <style>
