@@ -1,17 +1,22 @@
 <script>
     let sresults ='';
-    let squery = "History";
+  //  let sresults2 ='';
+    let squery = 'Liberty';
     var options = { year: 'numeric', month: 'long', day: 'numeric' };
-
+    let mindate = Date.now() - 5184000000;
 
     async function getSearchResult() {
-       // const url = "./pod-get-episodes-feedid.php?id=" + pod.feedId;
-        const url = "./pod-get-search-pods.php?q=Swimming";
+        const url = "./pod-get-search-pods.php?squery=" + squery;
+       // const url = "./pod-get-search-pods.php";
         let res = await fetch(url);
         res = await res.json();
         sresults = res.feeds;
-        sresults = sresults.sort((a, b) => parseFloat(b.lastUpdateTime) - parseFloat(a.lastUpdateTime));
-        console.log(sresults);
+// trying to only show podcasts last updated within 60 days
+    //  console.log(Date.now() - mindate);
+    //  sresults2 =  sresults.filter(newpods => sresults.lastUpdateTime >= 1);
+        sresults = sresults.filter(function (e) {return e.lastUpdateTime > mindate/1000;});
+        sresults.sort((a, b) => parseFloat(b.lastUpdateTime) - parseFloat(a.lastUpdateTime));
+        console.log(sresults)
     }
 </script>
 
