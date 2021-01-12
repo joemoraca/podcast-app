@@ -5,11 +5,14 @@
     let mindate = Date.now() - 5184000000;
 
     async function getSearchResult() {
-        const url = "./pod-get-search-pods.php?squery=" + squery;
+        let url = "./pod-get-search-pods.php?squery=" + squery;
+        url = url.split(' ').join('+');
+     //   console.log(url);
+      //  const url = "./pod-get-search-pods.php?squery=Florida+History";
         let res = await fetch(url);
         res = await res.json();
         sresults = res.feeds;
-        console.log(squery);
+
 // trying to only show podcasts last updated within 60 days then sorted newest first
     //  sresults =  sresults.filter(newpods => newpods.lastUpdateTime > mindate/1000);
         sresults = sresults.filter(function (e) {return e.lastUpdateTime > mindate/1000;});
