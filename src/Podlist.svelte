@@ -12,7 +12,7 @@
                 let res = await fetch(url);
                 res = await res.json();
                 podcastinfo = res;
-                console.log(podcastinfo)
+              //  console.log(podcastinfo)
         }
         async function getEpisodes() {
                 const url =
@@ -21,7 +21,7 @@
                 let res = await fetch(url);
                 res = await res.json();
                 episodes = res;
-                console.log(episodes);
+           //     console.log(episodes);
         }
         function modalpodcast() {
                 modal.show();
@@ -47,10 +47,6 @@
                 grid-area: modalright;
                 text-align: center;
         }
-        /* .modalright img{
-                padding-left: 50px;
-                padding-right: 20px;
-        } */
         .modalepisodes {
                 grid-area: modalepisodes;
         }
@@ -71,11 +67,7 @@
                 padding-left: 10px;
                 padding-top: 8px;
         }
-        td{
-                padding:5px;
-        }
-    tr:nth-child(even) {background:lightgray}
-    tr:nth-child(odd) {background: #f3bbbb}
+
 </style>
 
 <tr>
@@ -119,7 +111,6 @@
                                 </div>
                         </div>
                 </Modal>
-                <!-- <button on:click={() => modal.show()}>{pod.feedTitle}</button> -->
                 <button title="Click to see Podcast Info" on:click={() => modalpodcast()}>{pod.feedTitle} </button>
         </td>
         <td class="episodetitle">{pod.episodeTitle}<br />

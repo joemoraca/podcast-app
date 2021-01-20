@@ -1,6 +1,6 @@
 <script>
 	import Soundbites from './Soundbites.svelte'
-	import Modal from './Modal.svelte'
+//	import Modal from './Modal.svelte'
 	import Search from './Search.svelte'
 	let modal;
 </script>
@@ -10,11 +10,11 @@
 <h2>Built with <a href="http://podcastindex.org/" target="_blank">Podcast Index</a> </h2>
 	<Soundbites />
 	<!-- <button on:click={() => modal.show()}>Show modal</button> -->
-	<Modal bind:this={modal}>
+	<!-- <Modal bind:this={modal}>
 		<h2>Modal Title</h2>
 		<p>Modal content.</p>
 		<button on:click={() => modal.hide()}>Close</button>
-	</Modal>
+	</Modal> -->
 	<Search />
 </main>
 

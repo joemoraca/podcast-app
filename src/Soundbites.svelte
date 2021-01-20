@@ -1,5 +1,4 @@
 <script>
-  //  import {pods} from './data-pods'
     import {onMount} from 'svelte'
     export let pods = ''
     import Podlist from './Podlist.svelte'

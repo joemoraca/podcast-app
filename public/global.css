@@ -84,3 +84,12 @@ audio {
 	height: 50px;
 	margin: 10px;
 }
+td{
+	padding:5px;
+}
+tr:nth-child(even) {
+	background:lightgray;
+}
+tr:nth-child(odd) {
+	background: #f3bbbb;
+}
