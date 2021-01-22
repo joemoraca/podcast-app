@@ -24,12 +24,12 @@
   </div>
   <div id="Contact" class="tabcontent">
 	<h3>Contact</h3>
-	<p>Get in touch, or swing by for a cup of coffee.</p>
+	<p>Get in touch Nomad Joe joe@webdevgeeks.com</p>
   </div>
   
   <div id="About" class="tabcontent">
 	<h3>About</h3>
-	<p>Who we are and what we do.</p>
+	<p>I live in an RV and travel the USA doing geeky stuff some of the time.</p>
 </div>
 </main>
 

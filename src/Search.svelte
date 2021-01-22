@@ -23,7 +23,7 @@ pods.sort((a, b) => parseFloat(b.lastUpdateTime) - parseFloat(a.lastUpdateTime))
 
     <fieldset>
         <label for="">Search Podcast Index Podcasts</label>
-        <input bind:value={squery} type="text" placeholder="seach by one term">
+        <input bind:value={squery} type="text" placeholder="seach by terms">
         <button on:click={() => getSearchResult()}>Search</button>
     </fieldset>
 <table width="100%">
