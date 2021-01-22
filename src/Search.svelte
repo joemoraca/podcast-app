@@ -17,7 +17,7 @@
 // trying to only show podcasts last updated within 60 days then sorted newest first
 pods = pods.filter(function (e) {return e.lastUpdateTime > mindate/1000;});
 pods.sort((a, b) => parseFloat(b.lastUpdateTime) - parseFloat(a.lastUpdateTime));
-//  console.log(pods)
+  console.log(pods)
     }
 </script>
 
@@ -35,7 +35,7 @@ pods.sort((a, b) => parseFloat(b.lastUpdateTime) - parseFloat(a.lastUpdateTime))
     </tr>
     {#each pods as pod}
          <tr> <!--{ pod.feedId = pod.id} -->
-            <td> <Podlist pod={pod} />{pod.id}</td>
+            <td> <Podlist pod={pod} /></td>
             <td>{new Date(pod.lastUpdateTime*1000).toLocaleDateString('en-US',options)}</td>
                 <!-- {console.log(dateObject)} -->
             <td><img src={pod.artwork} width="125px" alt="podcast artwork"></td> 

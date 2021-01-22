@@ -18,7 +18,8 @@ $headers = [
 //Make the request to an API endpoint
 // https://github.com/Podcastindex-org/docs-api
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL,"https://api.podcastindex.org/api/1.0/recent/soundbites?pretty");
+//curl_setopt($ch, CURLOPT_URL,"https://api.podcastindex.org/api/1.0/recent/soundbites?pretty");
+curl_setopt($ch, CURLOPT_URL,"https://api.podcastindex.org/api/1.0/recent/soundbites");
 //"https://podcastindex.org/api/search/byterm?q=bastiat");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);

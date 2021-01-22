@@ -1,0 +1,220 @@
+soundbites= aka pods.
+[
+{id: 1332146, episodeTitle: "Day 54: Whitewashed Tombs", enclosureUrl: "https://www.buzzsprout.com/1386595/7193662-day-54-whitewashed-tombs.mp3?blob_id=31117363", startTime: 0, duration: 56}
+, {id: 1333460, episodeTitle: "Episode 4 - Tezuka's Metropolis Anime", enclosureUrl: "https://www.buzzsprout.com/1520032/7394944-episode-4-tezuka-s-metropolis-anime.mp3?blob_id=32308204", startTime: 0, duration: 15}
+, {id: 527824, episodeTitle: "Season 2, Episode 2 - The Power of Choice", enclosureUrl: "https://www.buzzsprout.com/1163327/7420333-season-…pisode-2-the-power-of-choice.mp3?blob_id=32507395", startTime: 656, duration: 30}
+, {id: 1336001, episodeTitle: "Chat with Lunga Ncala_cycling against Gender Based Violence and substance abuse", enclosureUrl: "https://pdcn.co/e/www.buzzsprout.com/1339696/74066…violence-and-substance-abuse.mp3?blob_id=32377060", startTime: 1890, duration: 60}
+, {id: 1157386, episodeTitle: "Ep. 101 - Our Most Anticipated Games of 2021!", enclosureUrl: "https://www.buzzsprout.com/238926/7425250-ep-101-o…st-anticipated-games-of-2021.mp3?blob_id=32485345", startTime: 3558, duration: 44}
+, {id: 1190804, episodeTitle: "Atlanta Falcons Breakdown and Conference Championship Player Stack", enclosureUrl: "https://www.buzzsprout.com/633148/7418962-atlanta-…ce-championship-player-stack.mp3?blob_id=32447869", startTime: 2637, duration: 25}
+ {id: 1365244, episodeTitle: "Sage ...WORD!", enclosureUrl: "https://www.buzzsprout.com/1544608/7414918-sage-word.mp3?blob_id=32441311", startTime: 50, duration: 28}
+ {id: 1335725, episodeTitle: "RockStar Radio with Billy Gerard for Jan 22 weekend", enclosureUrl: "https://pdcn.co/e/www.buzzsprout.com/1548268/74160…ly-gerard-for-jan-22-weekend.mp3?blob_id=32433973", startTime: 78, duration: 59}
+ {id: 1366141, episodeTitle: "Ep. 40: Cegah bunuh diri bisa dimulai dari media sosial - ngobrol bareng Benny Prawira", enclosureUrl: "https://pdcn.co/e/www.buzzsprout.com/1414036/74263…ngobrol-bareng-benny-prawira.mp3?blob_id=32492869", startTime: 376, duration: 34}
+ {id: 1365447, episodeTitle: "Episode 5: The Truth Behind Large Social Media Stars, Furries, and Trauma.", enclosureUrl: "https://www.buzzsprout.com/1540681/7060624-episode…dia-stars-furries-and-trauma.mp3?blob_id=32372272", startTime: 1395, duration: 60}
+ {id: 674426, episodeTitle: "Leo Gomez - CEO, Brooks", enclosureUrl: "https://www.buzzsprout.com/257580/7217509-leo-gomez-ceo-brooks.mp3?blob_id=31257862", startTime: 282, duration: 37}
+ {id: 1370403, episodeTitle: "Morning Moment for 1/22", enclosureUrl: "https://pdcn.co/e/www.buzzsprout.com/1501627/7423810-morning-moment-for-1-22.mp3?blob_id=32476402", startTime: 28, duration: 45}
+ {id: 1328270, episodeTitle: "El Hombre Del Saco (The Sack Man)", enclosureUrl: "https://www.buzzsprout.com/1460524/7424827-el-hombre-del-saco-the-sack-man.mp3?blob_id=32486176", startTime: 218, duration: 31}
+ {id: 1320977, episodeTitle: "Super Sunday", enclosureUrl: "https://pdcn.co/e/www.buzzsprout.com/1050886/7427419-super-sunday.mp3?blob_id=32499544", startTime: 59, duration: 60}
+ {id: 1305774, episodeTitle: "Preparing for the unforeseen in 2021", enclosureUrl: "https://www.buzzsprout.com/1178069/7426882-preparing-for-the-unforeseen-in-2021.mp3?blob_id=32495929", startTime: 146, duration: 30}
+]
+
+single podcast: podcastinfo.
+artwork: "https://storage.buzzsprout.com/variants/na3y37yv23mxrg17wtiy8lnaq91z/8d66eb17bb7d02ca4856ab443a78f2148cafbb129f58a3c81282007c6fe24ff2.jpg"
+author: "Ben Church and Joanna Church"
+categories: {61: "Christianity", 65: "Religion", 66: "Spirituality", 77: "Society", 78: "Culture", 82: "Philosophy"}
+chash: "deb3e5382e03fbb1733bbb338c31523b"
+contentType: "text/xml; charset=utf-8"
+crawlErrors: 0
+dead: 0
+description: "A Daily Devotional Podcast. Spend 7 days a week with The Church. Siblings, Ben and Joanna Church that is! Join us for the I will be your Church podcast to start each day discovering a scripture (or two), discussed and applied to growing in relationship with God, understanding who we are in His purpose for the universe, and how to live our faith in the world today - all in under 20 minutes a day! The 7th day will be reserved for longer special joint episodes. With Ben you get a more traditional approach to the scriptures, and Joanna brings her inquisitive..."
+episodeCount: 58
+generator: null
+id: 1332146
+image: "https://storage.buzzsprout.com/variants/na3y37yv23mxrg17wtiy8lnaq91z/8d66eb17bb7d02ca4856ab443a78f2148cafbb129f58a3c81282007c6fe24ff2.jpg"
+imageUrlHash: 129946345
+itunesId: 1534721112
+language: "en-us"
+lastCrawlTime: 1611321500
+lastGoodHttpStatusTime: 1611321500
+lastHttpStatus: 200
+lastParseTime: 1611321516
+lastUpdateTime: 1611321514
+link: ""
+locked: 1
+originalUrl: "https://feeds.buzzsprout.com/1386595.rss"
+ownerName: "Ben Church and Joanna Church"
+parseErrors: 0
+title: "I will be your Church"
+type: 0
+url: "https://feeds.buzzsprout.com/1386595.rss"
+value: null
+
+
+
+episodes.
+
+chaptersUrl: null
+dateCrawled: 1611321516
+datePublished: 1611313200
+datePublishedPretty: "January 22, 2021 5:00am"
+description: "<p>Ben shares with us the parable of The Two Sons. Are you saying all the right words, but your actions don't match them? Be challenged with today's message.<br>If this message of connecting with God and being clothed in his love resonates with you, watch for and subscribe to the I will be your Church Daily podcast. Find all of our info at: IwillbeyourChurch.com</p>"
+duration: 707
+enclosureLength: 8587134
+enclosureType: "audio/mpeg"
+enclosureUrl: "https://www.buzzsprout.com/1386595/7193662-day-54-whitewashed-tombs.mp3?blob_id=31117363"
+episode: 58
+episodeType: "full"
+explicit: 0
+feedId: 1332146
+feedImage: "https://storage.buzzsprout.com/variants/na3y37yv23mxrg17wtiy8lnaq91z/8d66eb17bb7d02ca4856ab443a78f2148cafbb129f58a3c81282007c6fe24ff2.jpg"
+feedItunesId: 1534721112
+feedLanguage: "en-us"
+guid: "Buzzsprout-7193662"
+id: 1517484293
+image: "https://storage.buzzsprout.com/variants/p4b67kgv8inc3udzj66u0p40f3q4/8d66eb17bb7d02ca4856ab443a78f2148cafbb129f58a3c81282007c6fe24ff2.jpg"
+link: ""
+season: 1
+title: "Day 54: Whitewashed Tombs"
+transcriptUrl: null
+
+
+
+
+SEARCH:
+artwork: "https://bitcoinundco.com/en/wp-content/uploads/2020/12/Cover-Player-en.png"
+author: "Anita Posch"
+categories: {9: "Business", 12: "Investing"}
+contentType: "application/rss+xml; charset=UTF-8"
+crawlErrors: 44
+dead: 0
+description: "Interviews with the most brilliant minds in Bitcoin. Anita Posch takes a look at Bitcoin from different angles with a focus on financial inclusion, human rights, privacy, self-sovereignty, solopreneurship, small business, self-sufficiency, independence, learning, mental and physical health, political activism and feminism."
+generator: "Podlove Podcast Publisher v3.2.2"
+id: 71569
+image: "https://bitcoinundco.com/en/wp-content/uploads/2020/12/Cover-Player-en.png"
+imageUrlHash: 215637751
+itunesId: 1432576313
+language: "en"
+lastCrawlTime: 1611322281
+lastGoodHttpStatusTime: 1611322281
+lastHttpStatus: 200
+lastParseTime: 1611322283
+lastUpdateTime: 1611322230
+link: "https://bitcoinundco.com/en"
+locked: 0
+originalUrl: "https://bitcoinundco.com/en/feed/mp3/"
+ownerName: "Anita Posch"
+parseErrors: 0
+title: "The Anita Posch Show: A Bitcoin Podcast"
+type: 0
+url: "https://bitcoinundco.com/en/feed/mp3/"
+
+
+
+
+search by term
+
+feeds": [
+    {
+        "id": 570887,
+        "title": "America's National Parks Podcast",
+        "url": "https://nationalparkpodcast.podbean.com/feed.xml",
+        "originalUrl": "https://nationalparkpodcast.podbean.com/feed.xml",
+        "link": "http://nationalparkpodcast.com",
+        "description": "This weekly story-based show takes you behind the events, people, and nature that have shaped our National Parks, and the 421 units managed by the National Park Service.",
+        "author": "RV Miles Network",
+        "ownerName": "RV Miles Network",
+        "image": "https://pbcdn1.podbean.com/imglogo/image-logo/2571529/ANPHexitunes.jpg",
+        "artwork": "https://pbcdn1.podbean.com/imglogo/image-logo/2571529/ANPHexitunes.jpg",
+        "lastUpdateTime": 1610878832,
+        "lastCrawlTime": 1611297506,
+        "lastParseTime": 1611157277,
+        "lastGoodHttpStatusTime": 1611297506,
+        "lastHttpStatus": 200,
+        "contentType": "text/xml; charset=UTF-8",
+        "itunesId": 1353308883,
+        "generator": "https://podbean.com/?v=5.5",
+        "language": "en",
+        "type": 0,
+        "dead": 0,
+        "crawlErrors": 1,
+        "parseErrors": 0,
+        "categories": {
+            "42": "Leisure",
+            "45": "Automotive",
+            "77": "Society",
+            "78": "Culture",
+            "80": "Personal",
+            "81": "Journals",
+            "83": "Places",
+            "84": "Travel"
+        },
+        "locked": 0,
+        "imageUrlHash": 160341950
+    },
+ 
+
+    episodes - recent
+
+    {
+        "status": "true",
+        "items": [
+            {
+                "id": 1517671048,
+                "title": "Hoy por Hoy León (22/01/2021)",
+                "link": "",
+                "description": "Magazine de actualidad de León.",
+                "guid": "https://prisa-es.mc.tritondigital.com/RADIO_LEON_CADENASER_662_P/media/2021/1/22/ser_aso_leon_hoyporhoyleon_20210122_122000_140000.mp3",
+                "datePublished": 1611322503,
+                "datePublishedPretty": "January 22, 2021 7:35am",
+                "dateCrawled": 1611323640,
+                "enclosureUrl": "https://prisa-es.mc.tritondigital.com/RADIO_LEON_CADENASER_662_P/media/2021/1/22/ser_aso_leon_hoyporhoyleon_20210122_122000_140000.mp3",
+                "enclosureType": "audio/mpeg",
+                "enclosureLength": 48000149,
+                "explicit": 0,
+                "episode": null,
+                "episodeType": null,
+                "season": 0,
+                "image": "https://recursosweb.prisaradio.com/fotos/original/010002282318.png",
+                "feedItunesId": 1061161982,
+                "feedImage": "https://cadenaser.com/estaticos/recursosgraficos/podcast/ser_leon_podcast_3000x3000.jpg",
+                "feedId": 586847,
+                "feedTitle": "Radio León",
+                "feedLanguage": "es-ES"
+            },
+
+
+[{"enclosureUrl":"https:\/\/www.buzzsprout.com\/1087487\/7294909-from-judgement-to-curiosity-how-to-shift-your-energy-to-empower-a-creative-mindset.mp3?blob_id=31716466",
+    "title":"","startTime":2794,"duration":40,
+    "episodeId":1517735948,
+    "episodeTitle":"From Judgement to Curiosity: How to Shift Your Energy to Empower a Creative Mindset",
+    "feedTitle":"The power of healing your energy",
+    "feedUrl":"https:\/\/feeds.buzzsprout.com\/1087487.rss",
+    "feedId":1321485},
+{"enclosureUrl":"https:\/\/www.buzzsprout.com\/925729\/7353457-create-a-learning-journey-with-lxd.mp3?blob_id=32059201",
+    "title":"","startTime":98,"duration":28,"episodeId":1517694149,
+    "episodeTitle":"Create a Learning Journey with LXD",
+    "feedTitle":"Powered by Learning",
+    "feedUrl":"https:\/\/feeds.buzzsprout.com\/925729.rss",
+    "feedId":131407},
+    
+    {"enclosureUrl":"https:\/\/www.buzzsprout.com\/843736\/7411213-how-to-make-the-most-out-of-clubhouse-to-share-your-brand-message.mp3?blob_id=32406592",
+        "title":"",
+        "startTime":85,
+        "duration":30,
+        "episodeId":1517670221,
+        "episodeTitle":"How to Make the Most Out of Clubhouse to Share Your Brand Message",
+        "feedTitle":"Find Your Feel Good for Female Entrepeneurs",
+        "feedUrl":"https:\/\/feeds.buzzsprout.com\/843736.rss",
+        "feedId":1215216},
+    {"enclosureUrl":"https:\/\/pdcn.co\/e\/www.buzzsprout.com\/667378\/7425253-surviving-human-trafficking-pt-2.mp3?blob_id=32487730","title":"","startTime":956,"duration":60,"episodeId":1517669322,"episodeTitle":"Surviving Human Trafficking pt. 2","feedTitle":"MAD Casters","feedUrl":"https:\/\/feeds.buzzsprout.com\/667378.rss","feedId":1329442},
+    {"enclosureUrl":"https:\/\/www.buzzsprout.com\/214613\/7159810-episode-37-mako-fujimura-on-art-and-creativity-the-diversity-and-oneness-of-humanity-and-the-divinity-of-making.mp3?blob_id=31095370","title":"","startTime":0,"duration":52,"episodeId":1517600701,"episodeTitle":"Episode 37: Mako Fujimura on art and creativity, the diversity and oneness of humanity and the divinity of making","feedTitle":"The Life Well Lived Podcast with Shane Breslin","feedUrl":"https:\/\/feeds.buzzsprout.com\/214613.rss","feedId":1154888},
+    {"enclosureUrl":"https:\/\/pdcn.co\/e\/www.buzzsprout.com\/1492621\/7395766-taryn-shank-_tarynshank-holistic-health-coaching-nutrition-response-testing-finding-your-niche-thoughtfully-thriving.mp3?blob_id=32461216","title":"","startTime":1716,"duration":27,"episodeId":1517599439,"episodeTitle":"Taryn Shank (@_tarynshank): Holistic Health Coaching, Nutrition Response Testing, Finding Your Niche & Thoughtfully Thriving","feedTitle":"Lit Up With Lo","feedUrl":"https:\/\/feeds.buzzsprout.com\/1492621.rss","feedId":1370515},
+    {"enclosureUrl":"https:\/\/www.buzzsprout.com\/1535236\/7327030-health-policy-in-medical-education-with-dr-dan-skinner.mp3?blob_id=31911034",
+        "title":"","startTime":448,"duration":32,"episodeId":1517552721,"episodeTitle":"Health Policy in Medical Education with Dr. Dan Skinner","feedTitle":"UnsCripted Medicine","feedUrl":"https:\/\/feeds.buzzsprout.com\/1535236.rss","feedId":949855},
+    {"enclosureUrl":"https:\/\/pdcn.co\/e\/www.buzzsprout.com\/1448221\/6904436-newsflash.mp3?blob_id=29315606","title":"","startTime":0,"duration":20,"episodeId":1517535685,"episodeTitle":"NewsFlash!!","feedTitle":"Moments of Motivation Podcast with James Mccleary","feedUrl":"https:\/\/feeds.buzzsprout.com\/1448221.rss","feedId":1372705},
+    {"enclosureUrl":"https:\/\/www.buzzsprout.com\/1055659\/7151254-s3-e8-the-rookie-of-alcatraz.mp3?blob_id=32443066","title":"","startTime":3220,"duration":30,"episodeId":1517524206,"episodeTitle":"S3 E8 THE ROOKIE OF ALCATRAZ","feedTitle":"The Good, The Pod and The Ugly","feedUrl":"https:\/\/feeds.buzzsprout.com\/1055659.rss","feedId":1241991},
+    {"enclosureUrl":"https:\/\/pdcn.co\/e\/www.buzzsprout.com\/787730\/7257934-why-bitcoin-will-replace-money-for-beginners.mp3?blob_id=31490434","title":"","startTime":105,"duration":35,"episodeId":1517511365,"episodeTitle":"Why Bitcoin will replace Money (For Beginners)","feedTitle":"The Unravelling Show","feedUrl":"https:\/\/feeds.buzzsprout.com\/787730.rss","feedId":1203220},
+    {"enclosureUrl":"https:\/\/www.buzzsprout.com\/1386595\/7193662-day-54-whitewashed-tombs.mp3?blob_id=31117363","title":"","startTime":0,"duration":56,"episodeId":1517484293,"episodeTitle":"Day 54: Whitewashed Tombs","feedTitle":"I will be your Church","feedUrl":"https:\/\/feeds.buzzsprout.com\/1386595.rss","feedId":1332146},
+    {"enclosureUrl":"https:\/\/www.buzzsprout.com\/1520032\/7394944-episode-4-tezuka-s-metropolis-anime.mp3?blob_id=32308204","title":"","startTime":0,"duration":15,"episodeId":1517483741,"episodeTitle":"Episode 4 - Tezuka's Metropolis Anime","feedTitle":"TWIMB Podcast","feedUrl":"https:\/\/feeds.buzzsprout.com\/1520032.rss","feedId":1333460},
+    {"enclosureUrl":"https:\/\/www.buzzsprout.com\/1163327\/7420333-season-2-episode-2-the-power-of-choice.mp3?blob_id=32507395","title":"","startTime":656,"duration":30,"episodeId":1517466885,"episodeTitle":"Season 2, Episode 2 - The Power of Choice","feedTitle":"2 Queens & Crystal Things","feedUrl":"https:\/\/feeds.buzzsprout.com\/1163327.rss","feedId":527824},
+    {"enclosureUrl":"https:\/\/pdcn.co\/e\/www.buzzsprout.com\/1339696\/7406647-chat-with-lunga-ncala_cycling-against-gender-based-violence-and-substance-abuse.mp3?blob_id=32377060","title":"","startTime":1890,"duration":60,"episodeId":1517457056,"episodeTitle":"Chat with Lunga Ncala_cycling against Gender Based Violence and substance abuse","feedTitle":"Phoenix Rising. Finding your life calling with Thola Bennie","feedUrl":"https:\/\/feeds.buzzsprout.com\/1339696.rss","feedId":1336001},
+    {"enclosureUrl":"https:\/\/www.buzzsprout.com\/238926\/7425250-ep-101-our-most-anticipated-games-of-2021.mp3?blob_id=32485345","title":"","startTime":3558,"duration":44,"episodeId":1517410904,"episodeTitle":"Ep. 101 - Our Most Anticipated Games of 2021!","feedTitle":"The Players' Take: A Video Game Podcast","feedUrl":"https:\/\/feeds.buzzsprout.com\/238926.rss","feedId":1157386}]

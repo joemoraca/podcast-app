@@ -13,7 +13,7 @@
                 let res = await fetch(url);
                 res = await res.json();
                 podcastinfo = res;
-              //  console.log(podcastinfo)
+            //    console.log(podcastinfo)
         }
         async function getEpisodes() {
                 const url =
@@ -22,7 +22,7 @@
                 let res = await fetch(url);
                 res = await res.json();
                 episodes = res;
-           //     console.log(episodes);
+             //   console.log(episodes);
         }
         function modalpodcast() {
                 modal.show();
@@ -76,9 +76,9 @@
         <div class="modaldiv">
                 <div class="modalleft">
                         {#if podcastinfo.link}
-                        <span class="podtitle">Podcast Name:</span><a class="podtitlelink" href="{podcastinfo.link}" target="_blank">{pod.feedTitle}</a><br />
+                        <span class="podtitle">Podcast Name:</span><a class="podtitlelink" href="{podcastinfo.link}" target="_blank">{podcastinfo.title}</a><br />
                         {:else}
-                        <span class="podtitle">Podcast Name:</span><span class="podtitlelink">{pod.feedTitle}</span><br />
+                        <span class="podtitle">Podcast Name:</span><span class="podtitlelink">{podcastinfo.title}</span><br />
                         {/if}
                         <span class="podtitle">Author: </span>{podcastinfo.author}<br />
                         <span class="podtitle">Desc:</span>{podcastinfo.description}<br />
@@ -112,16 +112,4 @@
         </div>
 </Modal>
 <!-- Table is created in Soundbites  -->
-<tr>
-   <td><button title="Click to see Podcast Info" on:click={() => modalpodcast()}>{pod.feedTitle} </button>
-   </td>
-        <!-- <td class="episodetitle">{pod.episodeTitle}<br />
-                
-                <audio controls>
-                        <source
-                                src="{pod.enclosureUrl.split('?', 1) + '#t='}{pod.startTime},{pod.startTime + pod.duration}"
-                                type="audio/mpeg" />
-                        Your browser does not support the audio element.
-                </audio>
-        </td>-->
-</tr> 
+<button title="Click to see Podcast Info" on:click={() => modalpodcast()}>{pod.title} </button>

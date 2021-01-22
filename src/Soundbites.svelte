@@ -8,14 +8,15 @@
         let res = await fetch(url)
         res= await res.json()
         pods = res
-        pods = pods.map(({ feedId: id, episodeTitle: episodeTitle,enclosureUrl: enclosureUrl ,startTime: startTime, duration: duration }) => ({
+        pods = pods.map(({ feedId: id, episodeTitle: episodeTitle,enclosureUrl: enclosureUrl ,startTime: startTime, duration: duration, feedTitle: title }) => ({
   id,
+  title,
   episodeTitle,
   enclosureUrl,
   startTime,
   duration,
 }));
-       // console.log(pods)
+        console.log(pods)
     })
  
 </script>
@@ -29,7 +30,8 @@
             <th>Episode Title / Soundbite</th>
         </tr>
     {#each pods as pod}
-    <Podlist pod={pod} />
+    <tr>
+    <td> <Podlist pod={pod} /></td>
     <td class="episodetitle">{pod.episodeTitle}<br />
         <!-- svelte-ignore a11y-media-has-caption -->
         <audio controls>
@@ -39,7 +41,7 @@
                 Your browser does not support the audio element.
         </audio>
 </td>
-
+</tr>
     {/each}
 </table>
 
