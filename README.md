@@ -1,4 +1,4 @@
-create a keys.php file with your public and private api keys from podcastindex.org 
+create a keys.php file in public folder with your public and private api keys from podcastindex.org 
 
 go podcasting !!
 

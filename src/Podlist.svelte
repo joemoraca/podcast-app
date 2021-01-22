@@ -61,13 +61,7 @@
                 font-weight: 700;
                 font-size: 1.25rem;  
         }
-        .episodetitle{
-                font-weight: 700;
-                font-size: 1.5rem;
-                text-align: left;
-                padding-left: 10px;
-                padding-top: 8px;
-        }
+
 
 </style>
 

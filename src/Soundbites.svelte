@@ -57,5 +57,11 @@
     #pod-th-center{
         text-align:center;
     }
-
+    .episodetitle{
+                font-weight: 700;
+                font-size: 1.5rem;
+                text-align: left;
+                padding-left: 10px;
+                padding-top: 8px;
+        }
 </style>

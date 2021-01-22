@@ -2,3 +2,4 @@
 /public/build/
 /public/keys.php
 .DS_Store
+/src/data.json
