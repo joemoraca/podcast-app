@@ -1,5 +1,17 @@
 create a keys.php file in public folder with your public and private api keys from podcastindex.org 
 
+<?php
+
+// had to escape the $ in secret key with \ 
+$apiKey = "YOUR PUBLIC KEY";
+$apiSecret = "YOUR SECRET KEY";
+
+
+
+--------------------------------------------------------------------------------
+Thanks to Comic Strip Blogger for his PHP code that I used.
+
+
 go podcasting !!
 
 Below are generic svelte tips:
