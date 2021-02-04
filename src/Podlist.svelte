@@ -4,6 +4,7 @@
         export let episodes = "";
         import Modal from "./Modal.svelte";
         let modal;
+        let filename;
 
         async function getPodcastInfo() {
                 const url =
@@ -93,12 +94,24 @@
                                 </td>
                                 <!-- svelte-ignore a11y-media-has-caption -->
                                 <td>
+                                <!-- <audio or video controls> -->
+                                     <span class="hideme">{filename = episode.enclosureUrl.split('?', 1)+''}</span>
+                                 {#if filename.split('.').pop() == 'mp4' || 'mov' }
+                                <video controls>
+                                        <source
+                                                src="{episode.enclosureUrl.split('?', 1)}"
+                                                type="video/mp4" />
+                                        Your browser does not support the video element.
+                                </video>
+                                {:else}
                                 <audio controls>
                                         <source
                                                 src="{episode.enclosureUrl.split('?', 1)}"
-                                                type="audio/mpeg" />
+                                                type="audio/mp3" />
                                         Your browser does not support the audio element.
-                                </audio></td>
+                                </audio>
+                              {/if}
+                              </td>
                         </tr>
                         {/each}
                         </table>

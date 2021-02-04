@@ -2,6 +2,7 @@
     import {onMount} from 'svelte'
     export let pods = ''
     import Podlist from './Podlist.svelte'
+    let filename;
 
     onMount( async() => {
         const url = './pod-get-soundbites.php'
@@ -33,13 +34,25 @@
     <tr>
     <td> <Podlist pod={pod} /></td>
     <td class="episodetitle">{pod.episodeTitle}<br />
-        <!-- svelte-ignore a11y-media-has-caption -->
-        <audio controls>
-                <source
-                        src="{pod.enclosureUrl.split('?', 1) + '#t='}{pod.startTime},{pod.startTime + pod.duration}"
-                        type="audio/mpeg" />
-                Your browser does not support the audio element.
-        </audio>
+            <!-- <audio or video controls> -->
+                 <span class="hideme">{filename = pod.enclosureUrl.split('?', 1)+''}</span>
+             {#if filename.split('.').pop() == 'mp4' }
+            <!-- svelte-ignore a11y-media-has-caption -->
+            <video controls>
+                    <source
+                            src="{pod.enclosureUrl.split('?', 1)}"
+                            type="video/mp4" />
+                    Your browser does not support the video element.
+            </video>
+            {:else}
+            <!-- svelte-ignore a11y-media-has-caption -->
+            <audio controls>
+                    <source
+                            src="{pod.enclosureUrl.split('?', 1)}"
+                            type="audio/mp3" />
+                    Your browser does not support the audio element.
+            </audio>
+          {/if}
 </td>
 </tr>
     {/each}

@@ -4,7 +4,8 @@
     // let sresults ='';
     let squery = '';
     var options = { year: 'numeric', month: 'long', day: 'numeric' };
-    let mindate = Date.now() - 5184000000;
+    //let mindate = Date.now() - 5184000000;
+  //  let mindate = Date.now() - 6884000000;
 
     async function getSearchResult() {
         let url = "./pod-get-search-pods.php?squery=" + squery;
@@ -15,7 +16,7 @@
         pods = res.feeds;
 
 // trying to only show podcasts last updated within 60 days then sorted newest first
-pods = pods.filter(function (e) {return e.lastUpdateTime > mindate/1000;});
+//pods = pods.filter(function (e) {return e.lastUpdateTime > mindate/1000;});
 pods.sort((a, b) => parseFloat(b.lastUpdateTime) - parseFloat(a.lastUpdateTime));
   console.log(pods)
     }
