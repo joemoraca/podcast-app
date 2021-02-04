@@ -17,7 +17,7 @@
   startTime,
   duration,
 }));
-        console.log(pods)
+      //  console.log(pods)
     })
  
 </script>
@@ -40,7 +40,7 @@
             <!-- svelte-ignore a11y-media-has-caption -->
             <video controls>
                     <source
-                            src="{pod.enclosureUrl.split('?', 1)}"
+                            src="{pod.enclosureUrl.split('?', 1) + '#t='}{pod.startTime},{pod.startTime + pod.duration}"
                             type="video/mp4" />
                     Your browser does not support the video element.
             </video>
@@ -48,7 +48,7 @@
             <!-- svelte-ignore a11y-media-has-caption -->
             <audio controls>
                     <source
-                            src="{pod.enclosureUrl.split('?', 1)}"
+                            src="{pod.enclosureUrl.split('?', 1) + '#t='}{pod.startTime},{pod.startTime + pod.duration}"
                             type="audio/mp3" />
                     Your browser does not support the audio element.
             </audio>
